@@ -3,7 +3,6 @@
 <Description>Look up articles and similar items on NCBI PubMed</Description>
 <Image width="16" height="16" type="image/x-icon">http://www.ncbi.nlm.nih.gov/favicon.ico</Image>
 <Url type="text/html" method="GET"
-	xmlns:rft="info:ofi/fmt:kev:mtx:book" 
 	xmlns:rft="info:ofi/fmt:kev:mtx:journal"
 	xmlns:z="http://www.zotero.org/namespaces/openSearch#"
 	template="http://www.ncbi.nlm.nih.gov/pubmed?term=%28%28{rft:aulast?}%5BAuthor%5D%29%20AND%20{z:title}%5BTitle%5D%29%20AND%20%22{z:publicationTitle}%22%5BJournal%5D"/>
