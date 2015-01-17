@@ -2,5 +2,6 @@
 <ShortName>PubMed Lookup</ShortName>
 <Description>Look up articles and similar items on NCBI PubMed</Description>
 <Image width="16" height="16" type="image/x-icon">http://www.ncbi.nlm.nih.gov/favicon.ico</Image>
-<Url type="text/html" method="GET" xmlns:rft="info:ofi/fmt:kev:mtx:journal" template="http://www.ncbi.nlm.nih.gov/pubmed?term=(({rft:aulast?}[Author])+AND+{rft:title}[Title])"/>
+<Url type="text/html" method="GET" xmlns:rft="info:ofi/fmt:kev:mtx:journal" xmlns:z="http://www.zotero.org/namespaces/openSearch#" template="http://www.ncbi.nlm.nih.gov/pubmed?term=(({rft:aulast?}[Author])+AND+{rft:title}[Title])+AND{z:publicationTitle}[Journal]"/>
 </OpenSearchDescription>
+
