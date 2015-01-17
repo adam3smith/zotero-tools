@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Amazon.com Lookup</ShortName>
+<Description>Look up books on Amazon.com</Description>
+<Image width="16" height="16" type="image/x-icon">http://www.amazon.com/favicon.ico</Image>
+<Url type="text/html" method="GET" xmlns:rft="info:ofi/fmt:kev:mtx:book" template="http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;unfiltered=1&amp;field-author={rft:aufirst?}+{rft:aulast?}&amp;field-title={rft:title}&amp;tag=httpwwwdig0e7-20"/>
+</OpenSearchDescription>
